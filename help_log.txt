@@ -1,0 +1,10 @@
+[Brady]
+    [11/2/2024 3:30PM] https://iquilezles.org/articles/voronoilines/
+        - Trying to learn more about voronoi noise
+    [11/2/2024 5:00PM] https://www.youtube.com/watch?app=desktop&v=CSa5O6knuwI
+        - Video explaining Minecraft's terrain generation at a high level
+    [11/2/2024 5:30PM] https://www.reddit.com/r/VoxelGameDev/comments/th9t2i/how_does_minecraft_combine_these_3_spline_graph/
+        - Reddit post asking about the spline graphs used in Minecraft
+    
+[Ivan]
+I did not receive external help.
