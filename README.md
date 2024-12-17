@@ -1,6 +1,8 @@
 # Mini Minecraft
 
 Team Block Bros: Ivan Zou, Brady Zhou, Zwe Tun
+## Video 
+[![Minecraft Demo](https://img.youtube.com/vi/0gj0GuymsP0/0.jpg)](https://www.youtube.com/watch?v=0gj0GuymsP0)
 
 ## Milestone 1
 
@@ -34,7 +36,7 @@ Team Block Bros: Ivan Zou, Brady Zhou, Zwe Tun
   - Updated renderTerrain() in myGL to renders the nine zones of generated terrain that surround the player by getting the x and z of the chunk the player is currently on and drawing a terrain with minX = x - 128 and maxX = x + 128 and the same for z.
 - Difficulties:
   - I was confused why getLocalBlockAt() was throwing a out of bounds error, because I thought it did bounds checking with at, but it didn't so I added my own bounds checking to that function, which fixed the issue.
-  - When I finished the Chunk class, shader program's interleaved draw, and terrain draw and then ran the program, nothing drew!!! I double, triple, quadruple checked everything, but everything I did seems to make logical sense, so I went to professor's office hours, and he added 2 lines of code to paintGL() and everything drew!!! Prof the goat.
+  - When I finished the Chunk class, shader program's interleaved draw, and terrain draw and then ran the program, nothing drew!!! I double, triple, quadruple checked everything, but everything I did seems to make logical sense, so I went to professor's office hours, and he added 2 lines of code to paintGL() and everything drew!
 - Approach:
   - I created many structs because it allows me to better organize my code.
   - When expanding the terrain, I decided to create a new terrain and fill it with new chunks when there isn't a generated terrain within 2 layers of terrain from the player's position rather than creating a new chunk and adding it to the map because I think this way makes it easier to create and set a terrain in the generated terrain set, and a generated terrain will contain chunks, so create new chunks where there is no generated terrain to generate the terrain and chunks.
